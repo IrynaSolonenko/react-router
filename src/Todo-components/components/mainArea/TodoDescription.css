@@ -1,0 +1,35 @@
+.descriptionContainer{
+    display: inline-block;
+}
+.todoDescription{
+    border: 2px solid black;
+    width: 50vw;
+    height: 30vh;
+}
+.mainAreaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.history{
+    width: 100vw;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+.addChangeButton{
+    color: white;
+    border: none;
+    background-color: rgba(37, 162, 37, 0.52);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.addChangeButton:hover{
+    background-color: rgba(16, 101, 16, 0.52);
+}
